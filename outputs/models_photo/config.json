@@ -1,0 +1,16 @@
+{
+ "classes": [
+  "alfalfa",
+  "cereals",
+  "palm",
+  "palm_orchard"
+ ],
+ "cnn": {
+  "augment": false
+ },
+ "transfer": {
+  "backbone": "resnet50",
+  "flips": true,
+  "head": "logistic"
+ }
+}

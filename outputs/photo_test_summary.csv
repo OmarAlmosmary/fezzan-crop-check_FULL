@@ -1,0 +1,9 @@
+,baseline,CNN from scratch (P0),transfer (P4)
+test photos,162.0,162.0,162.0
+accuracy,0.247,0.432,0.574
+macro-F1,0.099,0.426,0.577
+macro AUC (one-vs-rest),0.5,0.721,0.806
+recall alfalfa,1.0,0.4,0.675
+recall cereals,0.0,0.528,0.583
+recall palm,0.0,0.771,0.543
+recall palm_orchard,0.0,0.157,0.51

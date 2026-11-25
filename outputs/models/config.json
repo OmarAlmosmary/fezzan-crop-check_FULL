@@ -1,0 +1,23 @@
+{
+ "classes": [
+  "alfalfa",
+  "cereals",
+  "palm",
+  "palm_orchard"
+ ],
+ "cnn": {
+  "filters": [
+   32,
+   64,
+   128
+  ],
+  "augment": true,
+  "dropout": 0.0
+ },
+ "transfer": {
+  "backbone": "densenet121",
+  "ctx": 580,
+  "rotations": false,
+  "head": "dense"
+ }
+}

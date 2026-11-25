@@ -1,0 +1,7 @@
+model,change,val acc,val macro-F1,val log loss,recall alfalfa,recall cereals,recall palm,recall palm_orchard,weights,best epochs,time (s)
+P0,"3 conv blocks (32-64-128) + batch norm, 128 px, Adam 0.001",0.529,0.521,1.03,0.654,0.404,0.529,0.479,94436,"[16, 28, 13, 9, 25]",528.0
+P1,P0 + random left-right flips,0.516,0.505,1.031,0.654,0.326,0.6,0.436,94436,"[8, 6, 20, 9, 10]",385.0
+P2,"ResNet50 frozen, logistic regression head",0.678,0.673,0.854,0.732,0.629,0.694,0.638,8196,,
+P3,P2 with DenseNet121 in place of ResNet50,0.656,0.647,0.951,0.748,0.573,0.694,0.574,4100,,
+P4,"P2 + left-right mirror (train on both, average both)",0.696,0.69,0.895,0.756,0.652,0.682,0.67,8196,,
+P5,"P4 with a dense head (256 units, dropout 0.4) in place of logistic regression",0.673,0.666,1.045,0.74,0.629,0.718,0.585,525572,"[4, 1, 3, 1, 1]",

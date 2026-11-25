@@ -1,0 +1,10 @@
+# FULL PRIVATE VERSION: images are included here on purpose. Do not push this folder.
+private/
+*_PRIVATE*
+weights/
+outputs/features_*.npy
+outputs/photo_features_*.npy
+outputs_smoke/
+*_executed.ipynb
+__pycache__/
+.ipynb_checkpoints/

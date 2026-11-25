@@ -1,0 +1,8 @@
+,photo model,satellite model,photo + satellite (average)
+farms,138.0,138.0,138.0
+accuracy,0.565,0.275,0.522
+macro-F1,0.57,0.276,0.534
+recall alfalfa,0.625,0.25,0.594
+recall cereals,0.593,0.519,0.593
+recall palm,0.516,0.452,0.548
+recall palm_orchard,0.542,0.042,0.417

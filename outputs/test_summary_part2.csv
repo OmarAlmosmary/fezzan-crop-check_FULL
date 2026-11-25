@@ -1,0 +1,9 @@
+,"CNN from scratch, part 1 (S1)","transfer, part 1 (T5)"
+accuracy,0.421,0.396
+macro-F1,0.283,0.351
+farm-level macro-F1,0.26,0.346
+macro AUC (one-vs-rest),0.537,0.628
+recall alfalfa,0.0,0.147
+recall cereals,0.396,0.571
+recall palm,0.949,0.568
+recall palm_orchard,0.038,0.154
