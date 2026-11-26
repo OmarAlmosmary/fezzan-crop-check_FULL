@@ -102,6 +102,4 @@ Scripts 1, 4 and 5 need the private files (survey key, GPS points) and are inclu
 
 - Survey data and ground photos: Fezzan Agriculture Assessment (2023), carried out by Tatweer Research for WFP Libya.
   Not public. This private version includes the photos; the public version shares only anonymous indexes.
-- Satellite views: Google Earth Pro screenshots (imagery © Google and its data providers). Google's terms do not allow
-  redistribution, so this version must not be shared publicly. All figures are kept here; the public version removes the ones
-  that show imagery or photos.
+- Satellite views: Google Earth Pro screenshots (imagery © Google and its data providers). 
